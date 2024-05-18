@@ -56,6 +56,7 @@ export class AuthService {
       console.log("Apprite service :: logout :: error: " + error);
     }
   }
+  
 }
 
 const authService = new AuthService();
